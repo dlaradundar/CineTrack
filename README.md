@@ -1,16 +1,85 @@
-# React + Vite
+# 🎬 CineTrack – Personal Movie Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CineTrack is a personal movie tracking application built with React and JavaScript. It allows users to manage their movie collections, track watched and planned movies, and organize their personal cinema library.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** https://cinetrack-vx0r.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+📂 **GitHub Repository:** https://github.com/dlaradundar/CineTrack
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Add Movies:** Add movies with their title, genre, release year, rating, and watch status.
+- **Edit Movies:** Update movie information whenever needed.
+- **Delete Movies:** Remove movies from your collection.
+- **Movie Posters:** Add movie posters using image URLs.
+- **Search:** Find movies by title.
+- **Filter:** Filter movies by genre.
+- **Statistics:** View total movies, watched movies, and planned movies.
+- **Local Storage:** Automatically save movie data in the browser.
+- **Responsive Design:** Enjoy the application on desktop and mobile devices.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript (ES6+)
+- Vite
+- HTML5
+- CSS3
+- React Hooks (`useState`, `useEffect`)
+- Browser Local Storage
+- Git & GitHub
+- Netlify
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/dlaradundar/CineTrack.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd CineTrack
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to view the application.
+
+### 5. Build for production
+
+```bash
+npm run build
+```
+
+## 💾 Data Storage
+
+CineTrack uses the browser's Local Storage to save movie information. Movie data remains available after refreshing the page in the same browser.
+
+## 📱 Responsive Design
+
+The application is designed to provide a consistent experience across desktop and mobile devices.
+
+## 👩‍💻 Developer
+
+**Dilara Dundar**
+
+GitHub: [@dlaradundar](https://github.com/dlaradundar)
+
+---
+
+⭐ If you like this project, feel free to explore the repository!
