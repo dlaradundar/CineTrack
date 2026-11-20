@@ -1,7 +1,7 @@
 
 import MovieForm from "../components/MovieForm";
 import EditMovie from "../components/EditMovie";
-import "./Home.css";
+import "./home.css";
 import { useState } from "react";
 
 function Home({   
